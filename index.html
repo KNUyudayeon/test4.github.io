@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="s.css">
+    <title>Da Yeon Yu | Personal Web</title> 
+</head>
+<body>
+    <div class="frame">
+
+        <!--상단-->
+        <nav class="navbar">
+            <!--웹사이트 이름-->
+            <div class="navbar-logo">
+                <a class="site-name" href="">DA YEON YU</a>
+            </div>
+
+            <!--메뉴창-->
+            <ul class="navbar-menu">
+                <li><a href="#home" class="home-btn">HOME</a></li>
+                <li><a href="#about-me" class="aboutme-btn">ABOUT ME</a></li>
+                <li><a href="#favorite" class="favorite-btn">FAVORITE</a></li>
+                <li><a href="#schedule" class="schedule-btn">SCHEDULE</a></li>  
+            </ul>
+
+            <!--사이즈 줄어들면 보이는 버튼-->
+            <button class="navbar-button">
+                <img class="bar" src="bar-icon.png">
+            </button>
+        </nav>
+        
+        <!--HOME-->
+        <div class="menu_home active">
+            <!--메인 화면 (웹사이트 들어오면 제일 먼저 보이는 화면)-->
+            <div class="main-comment">
+                <h1 class="comment1">안녕하세요! 제 이름은 <a class="name">유다연</a><br>
+                    저의 <a class="highlight-type">웹사이트</a>에 오신 것을 정말로 <a class="highlight-type">환영합니다!</a>
+                </h1>
+
+                <p class="comment2">Hello, and welcome to my web page. I am majoring in computer engineering<br>
+                    at Kangwon National University. I am currently taking web programming and studying about the web. <br>
+                    I'm still learning, so I'd appreciate it if you liked it even though it's a very immature web page.
+                </p>
+            </div>
+        </div>
+
+
+        <!--ABOUT ME-->
+        <div class="menu_about-me">
+            <div class="profile-section">
+                <img id="profile-picture" src="프로필사진2.jpg">
+                <div class="introduction">
+                    <h2>ABOUT ME</h2>
+                    <p>
+                    <a class ="info">AGE: 21 (2002.02.26) <br>
+                    RESIDENTIAL AREA: CHUNCHEON </a><br>
+                    <br><a class="point">강원대학교 컴퓨터공학과</a>재학 중, 현재 <a class="point">2학년 1학기</a> 과정 밟는 중입니다.<br> 1학년 때 까지는 진로에 대해 깊게 생각해볼 기회가 없어
+                    내가 무엇을 하고 싶은지, 무엇을 잘 하는지도 모르는 상태였습니다. 과거에 비해 상대적으로 괜찮은 것 뿐, 현재도 크게 다를 바가 없지만
+                    요즘 <a class="point">게임 관련 분야</a>에 관심이 생기고 있어 더욱 노력이 필요하다는 것을 느끼고 있습니다. 이에 더불어 그래픽 분야도 관심이 생겨나고 있어, 
+                    <a class="point">그래픽 디자인</a> 쪽도 꼭 공부해보고 싶습니다. 
+                    </p>
+                    <h2>HOBBY</h2>
+                    <p class="hobby">- WATCHING MOVIE<br>- PLAYING GAME<br>- DROWING PICTURE</p>
+                </div>
+            </div>
+            
+
+            <h3 class="value-title">MY VALUE</h3>
+
+            <div class="value-section">
+
+                <!--장점이나 성격 같은 것-->
+                <div class="value">
+                    <img class="personality-picture" src="personality.png">
+                    <div class="personality">
+                        <h2>PERSONALITY</h2>
+                        <p class="personality-comment">저는 시작하면 끝장을 보는 스타일입니다. 남들 보다 게으른 편이라 시작은 늦지만, 끈기가 엄청나서 
+                            한 번 무언가에 집중하면 해가 지는 지, 뜨는 지 모를 정도로 몰두합니다.  시간은 오래 걸려도 완벽하게 하는 것을 추구하고, 꼼꼼한 편이라 
+                            빈틈이 생기는 것을 좋아 하지 않습니다. 또한, 정이 많고 사람들의 이야기를 듣는 것을 좋아합니다. 친구들의 사소한 이야기까지 듣고 반응해주는 것이
+                            무척 즐겁습니다. 
+                        </p>
+                    </div>
+                </div>
+
+
+                <!--mbti-->
+                <div class="value">
+                    <div class="mbti">
+                        <h1>MBTI - <a>ISFP</a></h1>
+                        <div class="c">
+                            <div class="item item1">내향형 (76%)</div>
+                            <div class="graph graph1"></div>
+                        </div>
+
+                        <div class="c">
+                            <div class="item item2">현실형 (76%)</div>
+                            <div class="graph graph2"></div>
+                        </div>
+                        
+                        <div class="c">
+                            <div class="item item3">원칙형 (51%)</div>
+                            <div class="graph graph3"></div>
+                        </div>
+
+                        <div class="c">
+                            <div class="item item4">탐색형 (71%)</div>
+                            <div class="graph graph4"></div>
+                        </div>
+
+                        <h2 class="isfp-title">호기심 많은 예술가, 성인군자형</h2>
+                        <p class="isfp-tag">#독립적 #인간중심 #겸손함 #예술적 #세심함 #감정이입적이해 #융통성</p>
+                        <p class="isfp-comment">- 말 없이 다정하고 온화하며 사람들에게 친절하다. <br>- 상대를 잘 알게 될 때까지 내면의 모습이 잘 보이지 않는다.
+                            <br>- 의견 충돌을 피하고 인화를 중시한다. <br>- 인간과 관계되는 일을 할 때 자신의 감정과 타인의 감정에 지나치게 민감한 경향이 있다.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+
+        <!--FAVORITE-->
+        <div class="menu_favorite">
+            <!--favorite movie-->
+            <h2>FAVORATE THINGS</h2>
+
+            <h3 class="favorite1">Favorite Movie</h3>
+            <div class="favorite-movie">
+                <div class="movie">
+                    <img class="movie-img" src="movie1.png">
+                    <div class="movie-info">
+                        <h3 class="movie-name movie1">어벤져스 엔드게임: AVENGERS ENDGAME</h3>
+                        <p class="movie-comment">인피니티 워 이후 절반만 살아남은 지구 마지막 희망이 된 
+                            어벤져스 먼저 떠난 그들을 위해 모든 것을 걸었다! 위대한 어벤져스 운명을 바꿀 최후의 
+                            전쟁이 펼쳐진다! </p>
+                            <a class="more" href="https://youtu.be/ijUsSpRVhBU">BEST SCENE</a>
+                    </div>
+                </div>
+
+                <div class="movie">
+                    <div class="movie-info">
+                        <h3 class="movie-name movie2">범죄도시2: the roundup</h3>
+                        <p class="movie-comment">괴물형사 ‘마석도’(마동석)와 ‘전일만’(최귀화) 반장은 베트남 현지의 용의자에게서 수상함을 느끼고, 
+                            그의 뒤에 무자비한 악행을 벌이는 ‘강해상’(손석구)이 있음을 알게 된다. ‘마석도’와 금천서 강력반은 한국과 베트남을 오가며 
+                            역대급 범죄를 저지르는 ‘강해상’을 본격적으로 쫓기 시작하는데... 나쁜 놈들 잡는 데 국경 없다! 
+                            통쾌하고 화끈한 범죄 소탕 작전이 다시 펼쳐진다! </p>
+                            <a class="more" href="https://youtu.be/agAS6d2X_4I">PREVIEW</a>
+                    </div>
+                    <img class="movie-img" src="movie2.jpg">
+                </div>
+
+            </div>
+
+            
+            <!--favorite person-->
+            <h3 class="favorite2">Favorite Person</h3>
+            <div class="favorite-person">
+                <div class="person person1">
+                    <img class="person-img" src="person1.jpg">
+                    <div class="person-info">
+                        <h3 class="person-name">KIM DO WAN<br></h3>
+                        <p class="person-comment">- 영화 배우, 탤런트<br>- 간 떨어지는 동거, 스타트업 출연<br><br><a class="tag"># 잘생김 #연기잘함</a></p>
+                        <a class="more" href="https://www.instagram.com/kimdwan_/">INSTAGRAM</a>
+                    </div>
+                </div>
+
+                <div class="person person2">
+                    <img class="person-img" src="person2.jpg">
+                    <div class="person-info">
+                        <h3 class="person-name">Oking<br></h3>
+                        <p class="person-comment">- 유튜버, 스트리머<br>- 썰 방송, 게임 방송<br><br><a class="tag">#웃김 #귀여움</a> </p>
+                        <a class="more" href="https://www.youtube.com/channel/UCom6YhUY62jM52nIMjf5_dw/featured">YOUTUBE</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--favorite music-->
+            <h3 class="favorite3">Favorite Music</h3>
+            <div class="favorite-music">
+                <div class="music music1">
+                    <div class="m1IMG">
+                        <img class="music-img" src="music1.jpg">
+                        <img class="music-player" src="musicplayer.png">
+                    </div>
+                    <div class="music-info">
+                        <h3 class="music-name music1-name">Cold Feet</h3>
+                        <p class="music-comment"></p>
+                        <a class="more" href="https://www.youtube.com/watch?v=xmOc_hFzuHk">LISTEN</a>
+                    </div>
+                </div>
+                
+                <div class="music music2">
+                    <div class="m2IMG">
+                        <img class="music-img" src="music2.jpg">
+                        <img class="music-player" src="musicplayer.png">
+                    </div>
+                    <div class="music-info">
+                        <h3 class="music-name music2-name">"HOMESWEETHOME"</h3>
+                        <p class="music-comment"></p>
+                        <a class="more" href="https://www.youtube.com/watch?v=7s1rQ79d6c0">LISTEN</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--favorite game-->
+            <div class="favorite-game">
+
+            </div>
+
+        </div>
+
+        <!--SCHEDULE-->
+        <div class="menu_schedule">
+            <nav aria-label="...">
+                <ul class="schedule-bar">
+                    <li class="item1">
+                        <a class="s1-1" href="#schedule">1학년 1학기</a>
+                    </li>
+                    <li class="item2">
+                        <a class="s1-2" href="#schedule">1학년 2학기</a>
+                    </li>
+                    <li class="item3">
+                        <a class="s2-1" href="#schedule">2학년 1학기</a>
+                    </li>
+                </ul>
+            </nav>
+            
+
+            <div class="schedule-container1">
+                <h2 class="schedule1-1">1학년 1학기 시간표</h2>
+                <div class="my-schedule">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th></th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="time">9</td> <td></td> <td> </td> <td rowspan="2">의사소통영어<br><a class="professor">김영지 교수님</a><br><a class="classroom">60주년 503</a></td>
+                        <td></td> <td rowspan="12">공강</td>
+                      </tr>
+                      <tr>
+                        <td class="time">10</td> <td></td> <td></td><td rowspan="2">파이썬<br>프로그래밍<br><a class="professor">김도형 교수님</a><br><a class="classroom">한빛관 309</a></td>
+                      </tr>
+                      <tr>
+                        <td class="time">11</td> <td> </td><td> </td> <td></td>
+                      </tr>
+                      <tr>
+                        <td class="time">12</td><td rowspan="2">글쓰기와<br>말하기<br><a class="professor">이연순 교수님</a><br><a class="classroom">60주년 402</a></td>
+                         <td></td> <td></td> <td rowspan="2">글쓰기와<br>말하기<br><a class="professor">이연순 교수님</a><br><a class="classroom">60주년 402</a></td> 
+                      </tr>
+                      <tr class="row5-1">
+                        <td class="time" rowspan="2">1</td><td rowspan="2"></td> <td rowspan="3">파이썬<br>프로그래밍<br><a class="professor">김도형 교수님</a><br><a class="classroom">한빛관 411</a></td><td class="x"></td>
+                      </tr>
+                      <tr class="row5-2">
+                         <td></td> <td></td> 
+                      </tr>
+                      <tr class>
+                        <td class="time" >2</td> <td rowspan="2">미분적분학및<br>컴퓨터실습<br><a class="professor">김준기 교수님</a><br><a class="classroom">60주년 703</a></td>
+                         <td></td> <td rowspan="2">미분적분학및<br>컴퓨터실습<br><a class="professor">김택철 교수님</a><br><a class="classroom">공6 608</a></td>
+                      </tr>
+                      <tr>
+                        <td class="time">3</td> <td rowspan="2">프로그래밍<br>기초<br><a class="professor">정충교 교수님</a><br><a class="classroom">공6 517</a></td>
+                        <td rowspan="2">프로그래밍<br>기초<br><a class="professor">정충교 교수님</a><br><a class="classroom">공6 517</a></td>
+                      </tr>
+                      <tr>
+                        <td class="time">4</td> <td rowspan="2">컴퓨터개론<br><a class="professor">이구연 교수님</a><br><a class="classroom">공6 606</a></td>                    
+                        <td rowspan="2">컴퓨터개론<br><a class="professor">이구연 교수님</a><br><a class="classroom">공6 606</a></td> 
+                      </tr>
+                      <tr class>
+                        <td class="time">5</td> <td ></td><td>진로탐색</td>
+    
+                    </tbody>
+                    </table>
+                </div>   
+            </div>
+
+
+            <div class="schedule-container2">
+                <h2 class="schedule1-2">1학년 2학기 시간표</h2>
+                <div class="my-schedule">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th></th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="time">9</td><td rowspan="2">의사소통영어<br><a class="professor">애런 교수님</a><br><a class="classroom">60주년 315</a></td> <td> </td> <td></td><td></td> <td rowspan="12">공강</td>
+                      </tr>
+                      <tr>
+                        <td class="time">10</td><td rowspan="2">객체지향<br>프로그래밍<br><a class="professor">정충교 교수님</a><br><a class="classroom">공6 517</a></td> 
+                        <td rowspan="2">객체지향<br>프로그래밍<br><a class="professor">정충교 교수님</a><br><a class="classroom">공6 517</a></td> <td></td>
+                      </tr>
+                      <tr>
+                        <td class="time">11</td> <td> </td><td> </td>
+                      </tr>
+                      <tr>
+                        <td class="time">12</td><td rowspan="2">코딩의 논리<br><a class="professor">김택철 교수님</a><br><a class="classroom">미래관 301</a></td>
+                         <td></td> <td></td> <td rowspan="2">코딩의 논리<br><a class="professor">김택철 교수님</a><br><a class="classroom">미래관 301</a></td>
+                      </tr>
+                      <tr class="row5-1">
+                        <td class="time" rowspan="2">1</td><td rowspan="2"></td><td rowspan="2"></td> <td class="x"></td>
+                      </tr>
+                      <tr class="row5-2">
+                         <td rowspan="2">생활 프랑스어<br><a class="professor">이선희 교수님</a><br><a class="classroom">인1 105</a></td>
+                         <td rowspan="2">생활 프랑스어<br><a class="professor">이선희 교수님</a><br><a class="classroom">인1 105</a></td><td class="x"></td> 
+                      </tr>
+                      <tr>
+                        <td class="time" >2</td> <td></td><td></td> 
+                      </tr>
+                      <tr>
+                        <td class="time">3</td> <td></td><td rowspan="2">C프로그래밍<br><a class="professor">최미정 교수님</a><br><a class="classroom">공6 412</a><td rowspan="2">C프로그래밍<br><a class="professor">최미정 교수님</a><br><a class="classroom">공6 309</a></td><td></td>
+                      </tr>
+                      <tr>
+                        <td class="time">4</td> <td ></td><td></td> 
+                      </tr>
+                    </tbody>
+                    </table>
+                </div>   
+            </div>
+
+
+
+            <div class="schedule-container3 active" >
+                <h2 class="schedule2-1">2학년 1학기 시간표</h2>
+                <div class="my-schedule">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th></th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="time">9</td> <td rowspan="2">이산수학<br><a class="professor">김만배 교수님</a><br><a class="classroom">공6 606</a></td> 
+                        <td> </td> <td> </td> <td rowspan="2">이산수학<br><a class="professor">김만배 교수님</a><br><a class="classroom">공6 606</a></td> <td rowspan="12">공강</td>
+                      </tr>
+                      <tr class="row2-1">
+                        <td class="time" rowspan="2">10</td> <td rowspan="3">리눅스<br>프로그래밍<br><a class="professor">문양세 교수님</a><br><a class="classroom">한빛관 412</a></td> 
+                        <td rowspan="3">리눅스<br>프로그래밍<br><a class="professor">문양세 교수님</a><br><a class="classroom">한빛관 309</a></td><td class="x"></td>
+                      </tr>
+                      <tr class="row2-2">
+                        <td> </td><td> </td>
+                      </tr>
+                      <tr>
+                        <td class="time">11</td> <td> </td><td> </td> 
+                      </tr>
+                      <tr>
+                        <td class="time">12</td> <td></td> <td></td> <td></td> <td></td> 
+                      </tr>
+                      <tr>
+                        <td class="time">1</td> <td rowspan="2">컴퓨터 활용<br><a class="professor">김동진 교수님</a><br><a class="classroom">미래관 405</a></td> <td></td> <td></td> 
+                        <td rowspan="2">컴퓨터 활용<br><a class="professor">김동진 교수님</a><br><a class="classroom">미래관 405</a></td> 
+                      </tr>
+                      <tr class="row6-1">
+                        <td class="time" rowspan="2">2</td>  <td rowspan="3">자료구조<br><a class="professor">이창기 교수님</a><br><a class="classroom">한빛관 412</a></td> 
+                        <td rowspan="3">자료구조<br><a class="professor">이창기 교수님</a><br><a class="classroom">한빛관 309</a></td> <td class="x"></td> 
+                      </tr>
+                      <tr class="row6-2">
+                         <td></td>  <td></td> 
+                      </tr>
+                      <tr>
+                        <td class="time">3</td>  <td></td><td></td>
+                      </tr>
+                      <tr>
+                        <td class="time">4</td> <td rowspan="2">선형대수학<br><a class="professor">이구연 교수님</a><br><a class="classroom">공6 610</a></td> 
+                        <td rowspan="3">웹프로그래밍<br><a class="professor">김아욱 교수님</a><br><a class="classroom">공6 609</a></td> 
+                        <td rowspan="3">웹프로그래밍<br><a class="professor">김아욱 교수님</a><br><a class="classroom">공6 609</a></td> 
+                        <td rowspan="2">선형대수학<br><a class="professor">이구연 교수님</a><br><a class="classroom">공6 610</a></td> 
+                      </tr>
+                      <tr class="row9-1">
+                        <td class="time" rowspan="2">5</td> <td class="x"></td>
+                      <tr class="row9-2">
+                         <td></td><td></td>
+                      </tr>
+                    </tbody>
+                    </table>
+                </div>   
+            </div>
+        
+
+            <!--밑에 email, 인스타, 블로그 등 (contact)-->
+            <footer class="footer">
+                <h2 class="footer-title">CONTACT ME</h2>
+                <div class="contact-links">
+                    <a class="email" href="mailto:2y0206y2@kangwon.ac.kr" target="_blank">EMAIL</a>
+                    |
+                    <a class="instagram" href="https://instagram.com/udayxxn">INSTAGRAM</a>
+                    | 
+                    <a class="blog" href="https://blog.naver.com/2y0206y">BLOG</a>
+                </div>
+            </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
